@@ -1,0 +1,8 @@
+import cosas.*
+import camion.*
+
+test "cargaCamion"{
+	camion.cargar(bumblebee)
+	camion.cargar(knightRider)
+	assert.equals (2, camion.objetosPeligrosos(3))
+}
